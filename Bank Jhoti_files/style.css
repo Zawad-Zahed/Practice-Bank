@@ -1,6 +1,7 @@
 body {
   padding: 100px;
 }
+
 .submit-area {
   margin-top: 50px;
   padding: 40px;
@@ -10,18 +11,18 @@ body {
 #transaction-area {
   display: none;
 }
-.status {
+.t-area {
+  color: white;
   margin: 0 20px;
   padding: 20px;
-  color: white;
   border-radius: 10px;
 }
 .deposit {
-  background-color: slateblue;
+  background-color: green;
 }
 .withdraw {
-  background-color: lightsalmon;
+  background-color: hotpink;
 }
 .balance {
-  background-color: orange;
+  background-color: blue;
 }
